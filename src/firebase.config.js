@@ -3,7 +3,7 @@ import { getApp, getApps, initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
-
+//firebase config
 const firebaseConfig = {
   apiKey: "AIzaSyARmL9FnlHGUyv1pHWBOnfDahwTkw0ppWg",
   authDomain: "fusion---restaurant.firebaseapp.com",
