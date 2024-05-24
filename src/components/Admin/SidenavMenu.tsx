@@ -117,7 +117,7 @@ const NavItem = ({
         {(title === "Menu" || title === "Users") && (
           <div className=" w-5 h-5 rounded-full bg-cartNumBg flex items-center justify-center cursor-pointer">
             <p className="text-sm text-white font-semibold">
-              {title === "Menu" ? foodItems.length : users.length}
+              {title === "Menu" ? foodItems?.length : users?.length}
             </p>
           </div>
         )}

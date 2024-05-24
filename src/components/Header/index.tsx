@@ -45,7 +45,7 @@ const Header = () => {
               className=" flex items-center justify-center"
             >
               <img
-                src={Avatar}  
+                src={user?.photoURL ?? Avatar}  
                 className="w-10 min-w-[40px] h-10 min-h-[40px] drop-shadow-2xl rounded-full cursor-pointer object-contain"
                 alt="profile"
               />

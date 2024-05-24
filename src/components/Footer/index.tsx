@@ -29,20 +29,12 @@ const Footer = () => {
           © 2022 Fusion™. All Rights Reserved.
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0 md:text-xl">
+       
           <motion.a
             whileTap={{ scale: 1.1 }}
             target={"_blank"}
             rel="noreferrer"
-            href="https://maanilverma.netlify.app"
-            className="text-textColor h-10 w-10 bg-primary rounded-full flex items-center justify-center"
-          >
-            <BsDribbble />
-          </motion.a>
-          <motion.a
-            whileTap={{ scale: 1.1 }}
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://github.com/MaanilVerma"
+            href="https://github.com/itsvanshchavda"
             className="text-textColor h-10 w-10 bg-primary rounded-full flex items-center justify-center"
           >
             <BsGithub />
@@ -51,7 +43,7 @@ const Footer = () => {
             whileTap={{ scale: 1.1 }}
             target={"_blank"}
             rel="noreferrer"
-            href="https://linkedin.com/in/maanilverma"
+            href="https://www.linkedin.com/in/vanshchavda07/"
             className="text-textColor h-10 w-10 bg-primary rounded-full flex items-center justify-center"
           >
             <BsLinkedin />
@@ -60,7 +52,7 @@ const Footer = () => {
             whileTap={{ scale: 1.1 }}
             target={"_blank"}
             rel="noreferrer"
-            href="https://twitter.com/MaanilV"
+            href="https://twitter.com/vanshchavda_"
             className="text-textColor h-10 w-10 bg-primary rounded-full flex items-center justify-center"
           >
             <BsTwitter />

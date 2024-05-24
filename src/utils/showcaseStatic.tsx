@@ -1,4 +1,4 @@
-import { Chicken, Fish, Icecream, Strawberry } from "../components/Assets";
+import { pizza, Fish, Icecream, Strawberry, Coca } from "../components/Assets";
 
 export const data = [
   {
@@ -10,17 +10,17 @@ export const data = [
   },
   {
     id: 3,
-    title: "Chicken",
-    desc: "Mixed Kebab",
+    title: "Pizza",
+    desc: "7 Chese Pizza",
     price: "299",
-    imgSrc: Chicken,
+    imgSrc: pizza,
   },
   {
     id: 4,
-    title: "Fish",
-    desc: "Roasted Fish",
-    price: "599",
-    imgSrc: Fish,
+    title: "Soft Drinks",
+    desc: "Coca Cola",
+    price: "100",
+    imgSrc: Coca,
   },
   {
     id: 1,
