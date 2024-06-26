@@ -89,8 +89,8 @@ export const fetchFoodData = async (dispatch: any) => {
       });
     })
     .then(() => {})
-    .catch((e) => {
-      console.log(e);
+    .catch((error) => {
+      console.log(error);
     });
 };
 
